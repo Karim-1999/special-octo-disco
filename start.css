@@ -1,0 +1,40 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "greeen greeen greeen"
+    "yelllowe yelllowe reed"
+    "orangee orangee blu";
+}
+
+#green {
+    grid-area: greeen;
+      height: 110px;
+    }
+    
+    #orange {
+    grid-area: orangee;
+    height: 110px;
+    
+    }
+    
+    #yellow {
+     grid-area: yelllowe;
+     height: 220px;
+  
+    }
+    
+    #red {
+     grid-area: reed;
+     height: 220px;
+  
+    }
+    
+    #blue {
+      grid-area: blu;
+  
+    }
+    ul{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
